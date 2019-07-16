@@ -1,7 +1,7 @@
 # docker container running dudle
 
-FROM debian:jessie
-MAINTAINER Dustin Jonda <Github@Dustin-Jonda.de>
+FROM debian:bullseye
+MAINTAINER David Eckel <david@eckel.it>
 
 # set needed variables
 ENV APACHE_RUN_USER www-data
